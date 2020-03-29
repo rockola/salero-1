@@ -1,0 +1,407 @@
+EESchema Schematic File Version 5
+EELAYER 33 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+Connection ~ 4300 3650
+Connection ~ 4300 3550
+Connection ~ 3350 2100
+Connection ~ 2850 2400
+Connection ~ 2150 2400
+Connection ~ 2850 1650
+Connection ~ 3350 1650
+Wire Wire Line
+	1850 1500 1850 1650
+Wire Wire Line
+	1850 1650 2000 1650
+Wire Wire Line
+	2000 2400 2150 2400
+Wire Wire Line
+	2150 2400 2150 2650
+Wire Wire Line
+	2150 2400 2300 2400
+Wire Wire Line
+	2150 2950 2150 3100
+Wire Wire Line
+	2300 1650 2850 1650
+Wire Wire Line
+	2350 3550 2750 3550
+Wire Wire Line
+	2600 2400 2850 2400
+Wire Wire Line
+	2850 1650 2850 1700
+Wire Wire Line
+	2850 1650 3350 1650
+Wire Wire Line
+	2850 2000 2850 2400
+Wire Wire Line
+	2850 2400 3050 2400
+Wire Wire Line
+	2850 2650 2850 2400
+Wire Wire Line
+	2850 2950 2850 3100
+Wire Wire Line
+	3000 4150 3200 4150
+Wire Wire Line
+	3350 1650 3350 1700
+Wire Wire Line
+	3350 1650 3550 1650
+Wire Wire Line
+	3350 2000 3350 2100
+Wire Wire Line
+	3350 2100 3350 2200
+Wire Wire Line
+	3350 2100 3550 2100
+Wire Wire Line
+	3350 2600 3350 2650
+Wire Wire Line
+	3350 2950 3350 3100
+Wire Wire Line
+	3500 4150 3600 4150
+Wire Wire Line
+	3850 1650 4000 1650
+Wire Wire Line
+	3900 4150 4050 4150
+Wire Wire Line
+	4000 1650 4000 1750
+Wire Wire Line
+	4050 2100 3850 2100
+Wire Wire Line
+	4050 2650 4050 2100
+Wire Wire Line
+	4050 2950 4050 3100
+Wire Wire Line
+	4200 2800 4450 2800
+Wire Wire Line
+	4200 3550 4300 3550
+Wire Wire Line
+	4200 3650 4300 3650
+Text Notes 7775 6875 2    50   ~ 0
+LPB-1
+Text Notes 8775 7650 2    50   ~ 0
+2020-03-29
+Text GLabel 2000 2400 0    50   Input ~ 0
+IN
+Text GLabel 2750 3450 0    50   Input ~ 0
+IN
+Text GLabel 2750 3650 0    50   Input ~ 0
+LED-
+Text GLabel 2750 3750 0    50   Output ~ 0
+OUT
+Text GLabel 3000 4150 0    50   Input ~ 0
+LED-
+Text GLabel 4450 2800 2    50   Input ~ 0
+OUT
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5E89E6CB
+P 4200 3550
+F 0 "#FLG01" H 4200 3625 50  0001 C CNN
+F 1 "PWR_FLAG" V 4247 3647 50  0000 L CNN
+F 2 "" H 4200 3550 50  0001 C CNN
+F 3 "~" H 4200 3550 50  0001 C CNN
+	1    4200 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5E89D773
+P 4200 3650
+F 0 "#FLG02" H 4200 3725 50  0001 C CNN
+F 1 "PWR_FLAG" V 4247 3747 50  0000 L CNN
+F 2 "" H 4200 3650 50  0001 C CNN
+F 3 "~" H 4200 3650 50  0001 C CNN
+	1    4200 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+9V #PWR04
+U 1 1 5E8A1AC6
+P 1850 1500
+F 0 "#PWR04" H 1850 1350 50  0001 C CNN
+F 1 "+9V" H 1825 1678 50  0000 C CNN
+F 2 "" H 1850 1500 50  0001 C CNN
+F 3 "" H 1850 1500 50  0001 C CNN
+	1    1850 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+9V #PWR010
+U 1 1 5E8D3D90
+P 4050 4150
+F 0 "#PWR010" H 4050 4000 50  0001 C CNN
+F 1 "+9V" H 4065 4323 50  0000 C CNN
+F 2 "" H 4050 4150 50  0001 C CNN
+F 3 "" H 4050 4150 50  0001 C CNN
+	1    4050 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+9V #PWR02
+U 1 1 5E6E3EBD
+P 4300 3550
+F 0 "#PWR02" H 4300 3400 50  0001 C CNN
+F 1 "+9V" H 4315 3723 50  0000 C CNN
+F 2 "" H 4300 3550 50  0001 C CNN
+F 3 "" H 4300 3550 50  0001 C CNN
+	1    4300 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5E8B7017
+P 2150 3100
+F 0 "#PWR05" H 2150 2850 50  0001 C CNN
+F 1 "GND" H 2155 2927 50  0000 C CNN
+F 2 "" H 2150 3100 50  0001 C CNN
+F 3 "" H 2150 3100 50  0001 C CNN
+	1    2150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5E6E322C
+P 2350 3550
+F 0 "#PWR01" H 2350 3300 50  0001 C CNN
+F 1 "GND" H 2355 3377 50  0000 C CNN
+F 2 "" H 2350 3550 50  0001 C CNN
+F 3 "" H 2350 3550 50  0001 C CNN
+	1    2350 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5E8A5777
+P 2850 3100
+F 0 "#PWR06" H 2850 2850 50  0001 C CNN
+F 1 "GND" H 2855 2927 50  0000 C CNN
+F 2 "" H 2850 3100 50  0001 C CNN
+F 3 "" H 2850 3100 50  0001 C CNN
+	1    2850 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5E8A3B91
+P 3350 3100
+F 0 "#PWR07" H 3350 2850 50  0001 C CNN
+F 1 "GND" H 3355 2927 50  0000 C CNN
+F 2 "" H 3350 3100 50  0001 C CNN
+F 3 "" H 3350 3100 50  0001 C CNN
+	1    3350 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5E8C2A13
+P 4000 1750
+F 0 "#PWR08" H 4000 1500 50  0001 C CNN
+F 1 "GND" H 4005 1577 50  0000 C CNN
+F 2 "" H 4000 1750 50  0001 C CNN
+F 3 "" H 4000 1750 50  0001 C CNN
+	1    4000 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5E8CD08C
+P 4050 3100
+F 0 "#PWR09" H 4050 2850 50  0001 C CNN
+F 1 "GND" H 4055 2927 50  0000 C CNN
+F 2 "" H 4050 3100 50  0001 C CNN
+F 3 "" H 4050 3100 50  0001 C CNN
+	1    4050 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5E6E4750
+P 4300 3650
+F 0 "#PWR03" H 4300 3400 50  0001 C CNN
+F 1 "GND" H 4305 3477 50  0000 C CNN
+F 2 "" H 4300 3650 50  0001 C CNN
+F 3 "" H 4300 3650 50  0001 C CNN
+	1    4300 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5E8A305C
+P 2150 2800
+F 0 "R1" H 2220 2755 50  0000 L CNN
+F 1 "1M5" H 2220 2845 50  0000 L CNN
+F 2 "rockola_kicad_footprints:R_DIN0207" V 2080 2800 50  0001 C CNN
+F 3 "~" H 2150 2800 50  0001 C CNN
+	1    2150 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5E8A11CE
+P 2850 1850
+F 0 "R2" H 2920 1805 50  0000 L CNN
+F 1 "470k" H 2920 1895 50  0000 L CNN
+F 2 "rockola_kicad_footprints:R_DIN0207" V 2780 1850 50  0001 C CNN
+F 3 "~" H 2850 1850 50  0001 C CNN
+	1    2850 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5E8A0DEA
+P 2850 2800
+F 0 "R3" H 2920 2755 50  0000 L CNN
+F 1 "47k" H 2920 2845 50  0000 L CNN
+F 2 "rockola_kicad_footprints:R_DIN0207" V 2780 2800 50  0001 C CNN
+F 3 "~" H 2850 2800 50  0001 C CNN
+	1    2850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5E8A09A6
+P 3350 1850
+F 0 "R4" H 3420 1805 50  0000 L CNN
+F 1 "10k" H 3420 1895 50  0000 L CNN
+F 2 "rockola_kicad_footprints:R_DIN0207" V 3280 1850 50  0001 C CNN
+F 3 "~" H 3350 1850 50  0001 C CNN
+	1    3350 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5E8A02E4
+P 3350 2800
+F 0 "R5" H 3420 2755 50  0000 L CNN
+F 1 "390R" H 3420 2845 50  0000 L CNN
+F 2 "rockola_kicad_footprints:R_DIN0207" V 3280 2800 50  0001 C CNN
+F 3 "~" H 3350 2800 50  0001 C CNN
+	1    3350 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5E8D01D8
+P 3750 4150
+F 0 "R6" V 3844 4144 50  0000 C CNN
+F 1 "4k7" V 3635 4135 50  0000 C CNN
+F 2 "rockola_kicad_footprints:R_DIN0207" V 3680 4150 50  0001 C CNN
+F 3 "~" H 3750 4150 50  0001 C CNN
+	1    3750 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4001 D1
+U 1 1 5E8A1836
+P 2150 1650
+F 0 "D1" H 2150 1434 50  0000 C CNN
+F 1 "1N4001" H 2150 1525 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2150 1475 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 2150 1650 50  0001 C CNN
+	1    2150 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5E8CF8F2
+P 3350 4150
+F 0 "D2" H 3343 3934 50  0000 C CNN
+F 1 "LED" H 3343 4025 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 3350 4150 50  0001 C CNN
+F 3 "~" H 3350 4150 50  0001 C CNN
+	1    3350 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L rockola_kicad_symbols:Power_Connector J2
+U 1 1 5E6E3BD4
+P 4500 3550
+F 0 "J2" H 4580 3542 50  0000 L CNN
+F 1 "Power_Connector" H 4580 3451 50  0000 L CNN
+F 2 "rockola_kicad_footprints:Power_Header_2pin_TOP" H 4500 3550 50  0001 C CNN
+F 3 "~" H 4500 3550 50  0001 C CNN
+	1    4500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5E8A355E
+P 2450 2400
+F 0 "C1" V 2599 2399 50  0000 C CNN
+F 1 "100n" V 2290 2390 50  0000 C CNN
+F 2 "rockola_kicad_footprints:C_Box_7.2_2.5" H 2488 2250 50  0001 C CNN
+F 3 "~" H 2450 2400 50  0001 C CNN
+	1    2450 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5E8A0676
+P 3700 2100
+F 0 "C3" V 3849 2099 50  0000 C CNN
+F 1 "100n" V 3540 2090 50  0000 C CNN
+F 2 "rockola_kicad_footprints:C_Box_7.2_2.5" H 3738 1950 50  0001 C CNN
+F 3 "~" H 3700 2100 50  0001 C CNN
+	1    3700 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP C2
+U 1 1 5E8C0431
+P 3700 1650
+F 0 "C2" V 3846 1646 50  0000 C CNN
+F 1 "100u" V 3537 1637 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 3738 1500 50  0001 C CNN
+F 3 "~" H 3700 1650 50  0001 C CNN
+	1    3700 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT RV1
+U 1 1 5E8C5CA1
+P 4050 2800
+F 0 "RV1" H 3980 2755 50  0000 R CNN
+F 1 "Vol A100k" H 3980 2845 50  0000 R CNN
+F 2 "rockola_kicad_footprints:16mm_BoardMount" H 4050 2800 50  0001 C CNN
+F 3 "~" H 4050 2800 50  0001 C CNN
+	1    4050 2800
+	1    0    0    1   
+$EndComp
+$Comp
+L rockola_kicad_symbols:Stomp_Connector J1
+U 1 1 5E6E2052
+P 2950 3550
+F 0 "J1" H 3030 3542 50  0000 L CNN
+F 1 "Stomp_Connector" H 3030 3451 50  0000 L CNN
+F 2 "rockola_kicad_footprints:Stomp_4pin" H 2950 3550 50  0001 C CNN
+F 3 "~" H 2950 3550 50  0001 C CNN
+	1    2950 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L rockola_kicad_symbols:Transistor_NPN_EBC Q1
+U 1 1 5E89FF04
+P 3250 2400
+F 0 "Q1" H 3441 2355 50  0000 L CNN
+F 1 "2N5089" H 3441 2445 50  0000 L CNN
+F 2 "rockola_kicad_footprints:TO92_EBC" H 3450 2500 50  0001 C CNN
+F 3 "~" H 3250 2400 50  0001 C CNN
+	1    3250 2400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
